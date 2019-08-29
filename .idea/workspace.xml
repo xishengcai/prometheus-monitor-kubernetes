@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9778b6e7-d17c-4914-8a79-6242034c4d93" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/prometheus/node-export/node-export-ds.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/prometheus/node-export/node-export-ds.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prometheus/node-export/node-export-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/prometheus/node-export/node-export-service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prometheus/prometheus/prometheus-config-configmap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/prometheus/prometheus/prometheus-config-configmap.yaml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,11 +77,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/prometheus/node-export/node-export-service.yaml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="286">
-              <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/prometheus/prometheus/prometheus-config-configmap.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-426">
+              <caret line="158" column="6" lean-forward="true" selection-end-line="191" />
             </state>
           </provider>
         </entry>
@@ -115,6 +124,7 @@
         <option value="$PROJECT_DIR$/prometheus/kube-state-metrics/kube-state-metrics-cluster-role-binding.yaml" />
         <option value="$PROJECT_DIR$/prometheus/node-export/node-export-ds.yaml" />
         <option value="$PROJECT_DIR$/prometheus/node-export/node-export-service.yaml" />
+        <option value="$PROJECT_DIR$/prometheus/prometheus/prometheus-config-configmap.yaml" />
       </list>
     </option>
   </component>
@@ -140,12 +150,6 @@
               <item name="prometheus-monitor-kubernetes" type="b2602c69:ProjectViewProjectNode" />
               <item name="prometheus-monitor-kubernetes" type="462c0819:PsiDirectoryNode" />
               <item name="prometheus" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="prometheus-monitor-kubernetes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="prometheus-monitor-kubernetes" type="462c0819:PsiDirectoryNode" />
-              <item name="prometheus" type="462c0819:PsiDirectoryNode" />
-              <item name="node-export" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="prometheus-monitor-kubernetes" type="b2602c69:ProjectViewProjectNode" />
@@ -286,7 +290,14 @@
     <entry file="file://$PROJECT_DIR$/prometheus/node-export/node-export-service.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
-          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prometheus/prometheus/prometheus-config-configmap.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-426">
+          <caret line="158" column="6" lean-forward="true" selection-end-line="191" />
         </state>
       </provider>
     </entry>
