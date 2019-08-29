@@ -11,20 +11,18 @@ spec:
   selector:
     app: prometheus-dep
 ---
-apiVersion: v1
-items:
-- apiVersion: extensions/v1beta1
-  kind: Ingress
-  metadata:
-    name: istio-ingress
-    namespace: prometheus
-  spec:
-    rules:
-    - host: zt.prometheus.io
-      http:
-        paths:
-        - backend:
-            serviceName: prometheus-svc
-            servicePort: 9090
-          path: /
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: istio-ingress
+  namespace: prometheus
+spec:
+  rules:
+  - host: zt.prometheus.io
+    http:
+      paths:
+      - backend:
+          serviceName: prometheus-svc
+          servicePort: 9090
+        path: /
 
